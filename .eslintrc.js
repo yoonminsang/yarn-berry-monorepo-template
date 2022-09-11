@@ -13,8 +13,9 @@ module.exports = {
     'eslint:recommended',
     'plugin:import/typescript',
     'plugin:import/recommended',
+    'plugin:storybook/recommended',
   ],
-  plugins: ['@typescript-eslint', 'import', 'prettier', 'react', 'react-hooks'],
+  plugins: ['@typescript-eslint', 'import', 'prettier', 'react', 'react-hooks', '@emotion'],
   settings: {
     react: { version: 'detect' },
   },
