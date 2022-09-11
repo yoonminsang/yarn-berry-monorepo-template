@@ -8,9 +8,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "jsxImportSource": "@emotion/react",
+    "types": ["vite-plugin-svgr/client", "@emotion/react/types/css-prop"],
     "baseUrl": "src"
   },
-  "include": ["src"],
+  "include": ["src", ".storybook/*"],
   "paths": {
     "components/*": ["components/*"]
   },
