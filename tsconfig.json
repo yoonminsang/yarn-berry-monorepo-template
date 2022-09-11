@@ -17,9 +17,9 @@
     {
       "path": "packages/client-a"
     },
-    {
-      "path": "packages/client-b"
-    },
+    // {
+    //   "path": "packages/client-b"
+    // },
     {
       "path": "packages/common-components"
     },
@@ -29,12 +29,12 @@
     {
       "path": "packages/common-hooks"
     },
-    {
-      "path": "packages/common-lib"
-    },
-    {
-      "path": "packages/common-styles"
-    },
+    // {
+    //   "path": "packages/common-lib"
+    // },
+    // {
+    //   "path": "packages/common-styles"
+    // },
     {
       "path": "packages/common-types"
     },
