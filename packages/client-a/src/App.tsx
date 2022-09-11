@@ -6,6 +6,7 @@ import { COMMON_CONST } from '@common/const';
 import { useInterval } from '@common/hooks';
 import { ICommon } from '@common/types';
 import { isKorean } from '@common/utils/validations';
+import Loading from 'components/Loading';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <Loading />
       <Button>버튼</Button>
       <Button isLoading>버튼</Button>
 
